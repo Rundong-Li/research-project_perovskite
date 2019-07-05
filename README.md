@@ -5,7 +5,11 @@ Based on the [BANDs](https://doi.org/10.1021/acs.jpclett.8b01446) model and brig
 
 Now we should consider a comprenhensive model that describes the trapping and photoluminescence (*PL*). 
 
-The energy dependent capture radius by Coulomb potential is given by $$r_{c}(E)=\frac{e^{2}}{4\pi\varepsilon\varepsilon_{0}E} \tag{1}$$ The Coulomb capture volume is $$V_{c}(E)=\frac{4}{3}\pi(r_{c}(E))^{3} \tag{2}$$ Volume of one defect is $$V_{d} = \frac{1}{N_{d}} \tag{3}$$ Fraction of the volume outside the Coulomb capture region that is contributing to *PL* $$V_{pl}(E)=1-\frac{4}{3}\pi N_{d}(r_{c}(E))^{3} \tag{4}$$ or $$V_{pl}(E)=1-DN_{d}/E^{3} \tag{5}$$ where $$D=\frac{4}{3}\pi \left(\frac{e^{2}}{4\pi\varepsilon\varepsilon_{0}}\right)^{3} \tag{6}$$ 
+The energy dependent capture radius by Coulomb potential is given by 
+$$
+r_{c}(E)=\frac{e^{2}}{4\pi\varepsilon\varepsilon_{0}E} \tag{1}
+$$
+The Coulomb capture volume is $$V_{c}(E)=\frac{4}{3}\pi(r_{c}(E))^{3} \tag{2}$$ Volume of one defect is $$V_{d} = \frac{1}{N_{d}} \tag{3}$$ Fraction of the volume outside the Coulomb capture region that is contributing to *PL* $$V_{pl}(E)=1-\frac{4}{3}\pi N_{d}(r_{c}(E))^{3} \tag{4}$$ or $$V_{pl}(E)=1-DN_{d}/E^{3} \tag{5}$$ where $$D=\frac{4}{3}\pi \left(\frac{e^{2}}{4\pi\varepsilon\varepsilon_{0}}\right)^{3} \tag{6}$$ 
 Concentration of photoexcited electrons (holes)is related to the quasi Fermi energy, $E_{Fn}(E_{Fp})$
 
 The Fermi-Dirac distribution function is $$f_{n}(z)=\frac{1}{1+exp[z-\eta_{Fn}]}\tag{7}$$ 
